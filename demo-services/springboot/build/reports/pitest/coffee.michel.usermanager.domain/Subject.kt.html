@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Subject.kt</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package coffee.michel.usermanager.domain</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.security.core.GrantedAuthority</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.security.core.authority.SimpleGrantedAuthority</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.security.core.userdetails.UserDetails</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>internal data class Subject(</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_8'/>
+8
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_8'>1</a>
+<span>
+1. getId : replaced int return with 0 for coffee/michel/usermanager/domain/Subject::getId &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    val id: Int,</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    private val username: String,</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    private val password: String,</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_11'/>
+11
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_11'>1</a>
+<span>
+1. getGroups : replaced return value with Collections.emptySet for coffee/michel/usermanager/domain/Subject::getGroups &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    val groups: Set&#60;UserGroup&#62;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>) : UserDetails {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_14'/>
+14
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_14'>1</a>
+<span>
+1. getPassword : replaced return value with &#34;&#34; for coffee/michel/usermanager/domain/Subject::getPassword &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    override fun getPassword() = password</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_16'/>
+16
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_16'>1</a>
+<span>
+1. getUsername : replaced return value with &#34;&#34; for coffee/michel/usermanager/domain/Subject::getUsername &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    override fun getUsername() = username</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    override fun getAuthorities(): MutableCollection&#60;out GrantedAuthority&#62; =</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_19'/>
+19
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_19'>1</a>
+<span>
+1. getAuthorities : replaced return value with Collections.emptyList for coffee/michel/usermanager/domain/Subject::getAuthorities &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        groups.map { SimpleGrantedAuthority(it.name) }.toMutableList()</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_21'/>
+21
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_21'>1</a>
+<span>
+1. isAccountNonExpired : replaced boolean return with false for coffee/michel/usermanager/domain/Subject::isAccountNonExpired &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    override fun isAccountNonExpired() = true</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_22'/>
+22
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_22'>1</a>
+<span>
+1. isAccountNonLocked : replaced boolean return with false for coffee/michel/usermanager/domain/Subject::isAccountNonLocked &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    override fun isAccountNonLocked() = true</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_23'/>
+23
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_23'>1</a>
+<span>
+1. isCredentialsNonExpired : replaced boolean return with false for coffee/michel/usermanager/domain/Subject::isCredentialsNonExpired &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    override fun isCredentialsNonExpired() = true</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_24'/>
+24
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_24'>1</a>
+<span>
+1. isEnabled : replaced boolean return with false for coffee/michel/usermanager/domain/Subject::isEnabled &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    override fun isEnabled() = true</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    override fun toString(): String {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_27'/>
+27
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_27'>1</a>
+<span>
+1. toString : replaced return value with &#34;&#34; for coffee/michel/usermanager/domain/Subject::toString &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return &#34;Subject(id=$id, username=&#39;$username&#39;, password=&#39;&#60;hidden&#62;&#39;, groups=$groups)&#34;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@7add323c_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_8'>8</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_8'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getId<br/><b>Killed by : </b>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[method:toString - hides password()]</span></span> replaced int return with 0 for coffee/michel/usermanager/domain/Subject::getId &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_11'>11</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_11'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getGroups<br/><b>Killed by : </b>coffee.michel.usermanager.api.controller.SubjectControllerTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.api.controller.SubjectControllerTest]/[method:assignGroup - when a user group is assigned to a subject, the modified subject must be returned()]</span></span> replaced return value with Collections.emptySet for coffee/michel/usermanager/domain/Subject::getGroups &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_14'>14</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_14'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getPassword<br/><b>Killed by : </b>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[method:toString - hides password()]</span></span> replaced return value with &#34;&#34; for coffee/michel/usermanager/domain/Subject::getPassword &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_16'>16</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_16'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getUsername<br/><b>Killed by : </b>coffee.michel.usermanager.api.controller.SubjectControllerTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.api.controller.SubjectControllerTest]/[method:userById - when a specific user is requested, it must be returned()]</span></span> replaced return value with &#34;&#34; for coffee/michel/usermanager/domain/Subject::getUsername &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_19'>19</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_19'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getAuthorities<br/><b>Killed by : </b>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:getAuthorities - returns UserGroups mapped to Authorities()]</span></span> replaced return value with Collections.emptyList for coffee/michel/usermanager/domain/Subject::getAuthorities &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_21'>21</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_21'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isAccountNonExpired<br/><b>Killed by : </b>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:isAccountNonExpired - defaults to true()]</span></span> replaced boolean return with false for coffee/michel/usermanager/domain/Subject::isAccountNonExpired &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_22'>22</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_22'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isAccountNonLocked<br/><b>Killed by : </b>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:isAccountNonLocked - defaults to true()]</span></span> replaced boolean return with false for coffee/michel/usermanager/domain/Subject::isAccountNonLocked &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_23'>23</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_23'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCredentialsNonExpired<br/><b>Killed by : </b>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:isCredentialsNonExpired - defaults to true()]</span></span> replaced boolean return with false for coffee/michel/usermanager/domain/Subject::isCredentialsNonExpired &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_24'>24</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_24'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isEnabled<br/><b>Killed by : </b>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:isEnabled - defaults to true()]</span></span> replaced boolean return with false for coffee/michel/usermanager/domain/Subject::isEnabled &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@7add323c_27'>27</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@7add323c_27'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[method:toString - hides password()]</span></span> replaced return value with &#34;&#34; for coffee/michel/usermanager/domain/Subject::toString &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>coffee.michel.usermanager.api.controller.SubjectControllerTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.api.controller.SubjectControllerTest]/[method:allUsers - when a list of users is requested, they must be returned()] (6 ms)</li><li>coffee.michel.usermanager.api.controller.SubjectControllerTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.api.controller.SubjectControllerTest]/[method:register - when a subject is registered, the newly persisted subject must be returned()] (10 ms)</li><li>coffee.michel.usermanager.domain.service.SubjectServiceTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.service.SubjectServiceTest]/[method:register - when a subject is registered, their password must be encoded()] (7 ms)</li><li>coffee.michel.usermanager.api.controller.SubjectControllerTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.api.controller.SubjectControllerTest]/[method:login - when the user logs in and the authentication is successful, the http status 200 must be returned along with the jwt()] (11 ms)</li><li>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:isAccountNonLocked - defaults to true()] (8 ms)</li><li>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:getAuthorities - returns UserGroups mapped to Authorities()] (9 ms)</li><li>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:isAccountNonExpired - defaults to true()] (4 ms)</li><li>coffee.michel.usermanager.domain.service.SubjectServiceTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.service.SubjectServiceTest]/[method:assignGroupToSubject - if a group is to be assigned to the subject, the subject has to be persisted with the newly assigned group()] (7 ms)</li><li>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:isEnabled - defaults to true()] (7 ms)</li><li>coffee.michel.usermanager.domain.service.SubjectServiceTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.service.SubjectServiceTest]/[method:login - when a subject is logging in and their password does not match, false must be returned()] (7 ms)</li><li>coffee.michel.usermanager.api.SubjectWriteDtoTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.api.SubjectWriteDtoTest]/[method:toString - hides password()] (10 ms)</li><li>coffee.michel.usermanager.persistence.storage.SubjectJpaRepositoryStorageTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.persistence.storage.SubjectJpaRepositoryStorageTest]/[method:persist - when a Subject is persisted and a constraint was violated, an exception must be thrown()] (6 ms)</li><li>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[method:toString - hides password()] (4 ms)</li><li>coffee.michel.usermanager.persistence.storage.SubjectJpaRepositoryStorageTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.persistence.storage.SubjectJpaRepositoryStorageTest]/[method:persist - when a Subject is persisted, it must return the persisted entity()] (6 ms)</li><li>coffee.michel.usermanager.domain.SubjectTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.SubjectTest]/[nested-class:MatchesUserDetailSpec]/[method:isCredentialsNonExpired - defaults to true()] (7 ms)</li><li>coffee.michel.usermanager.api.controller.SubjectControllerTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.api.controller.SubjectControllerTest]/[method:userById - when a specific user is requested, it must be returned()] (7 ms)</li><li>coffee.michel.usermanager.api.controller.SubjectControllerTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.api.controller.SubjectControllerTest]/[method:assignGroup - when a user group is assigned to a subject, the modified subject must be returned()] (5 ms)</li><li>coffee.michel.usermanager.domain.service.SubjectServiceTest.[engine:junit-jupiter]/[class:coffee.michel.usermanager.domain.service.SubjectServiceTest]/[method:login - when a subject is logging in and their password matches, true must be returned()] (7 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.7.0
+
+</body>
+</html>
