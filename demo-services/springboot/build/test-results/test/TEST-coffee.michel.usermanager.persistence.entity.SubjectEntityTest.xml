@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="coffee.michel.usermanager.persistence.entity.SubjectEntityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-08T08:00:18" hostname="coffee-book.localdomain" time="0.084">
-  <properties/>
-  <testcase name="toString - hides password()" classname="coffee.michel.usermanager.persistence.entity.SubjectEntityTest" time="0.084"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
