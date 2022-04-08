@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="coffee.michel.usermanager.persistence.storage.UserGroupJpaRepositoryStorageTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-04-08T08:00:20" hostname="coffee-book.localdomain" time="0.067">
+  <properties/>
+  <testcase name="delete()" classname="coffee.michel.usermanager.persistence.storage.UserGroupJpaRepositoryStorageTest" time="0.02"/>
+  <testcase name="persist - when a UserGroup is persisted, it must return the persisted entity()" classname="coffee.michel.usermanager.persistence.storage.UserGroupJpaRepositoryStorageTest" time="0.027"/>
+  <testcase name="list - when the repository returns an empty list of UserGroups, an empty list must be returned()" classname="coffee.michel.usermanager.persistence.storage.UserGroupJpaRepositoryStorageTest" time="0.003"/>
+  <testcase name="list - when the repository returns a list of UserGroups, they must be returned()" classname="coffee.michel.usermanager.persistence.storage.UserGroupJpaRepositoryStorageTest" time="0.003"/>
+  <testcase name="get - when a UserGroup is requested, it must be returned()" classname="coffee.michel.usermanager.persistence.storage.UserGroupJpaRepositoryStorageTest" time="0.002"/>
+  <testcase name="get - when a UserGroup is requested and not found, an exception must be thrown()" classname="coffee.michel.usermanager.persistence.storage.UserGroupJpaRepositoryStorageTest" time="0.004"/>
+  <testcase name="delete - when a UserGroup should be deleted but was not found, an exception must be thrown()" classname="coffee.michel.usermanager.persistence.storage.UserGroupJpaRepositoryStorageTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

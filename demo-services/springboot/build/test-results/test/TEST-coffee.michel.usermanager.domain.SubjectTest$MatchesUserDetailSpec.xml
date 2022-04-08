@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Matches UserDetails Specifications" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-04-08T08:00:21" hostname="coffee-book.localdomain" time="0.014">
+  <properties/>
+  <testcase name="isAccountNonExpired - defaults to true()" classname="coffee.michel.usermanager.domain.SubjectTest$MatchesUserDetailSpec" time="0.002"/>
+  <testcase name="isEnabled - defaults to true()" classname="coffee.michel.usermanager.domain.SubjectTest$MatchesUserDetailSpec" time="0.001"/>
+  <testcase name="isAccountNonLocked - defaults to true()" classname="coffee.michel.usermanager.domain.SubjectTest$MatchesUserDetailSpec" time="0.001"/>
+  <testcase name="isCredentialsNonExpired - defaults to true()" classname="coffee.michel.usermanager.domain.SubjectTest$MatchesUserDetailSpec" time="0.001"/>
+  <testcase name="getAuthorities - returns UserGroups mapped to Authorities()" classname="coffee.michel.usermanager.domain.SubjectTest$MatchesUserDetailSpec" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
